@@ -1,5 +1,9 @@
 require 'puppetlabs_spec_helper/rake_tasks'
 require 'puppet-lint/tasks/puppet-lint'
+begin
+  require 'puppet_blacksmith/rake_tasks'
+rescue LoadError
+end
 
 desc "Validate manifests, templates, and ruby files"
 task :validate do
