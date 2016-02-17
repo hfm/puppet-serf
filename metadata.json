@@ -1,0 +1,15 @@
+{
+  "name": "hfm-serf",
+  "version": "0.1.0",
+  "author": "hfm",
+  "summary": "This module manages installation and configuration of Serf.",
+  "license": "MIT",
+  "source": "https://github.com/hfm/puppet-serf",
+  "project_page": "https://github.com/hfm/puppet-serf",
+  "issues_url": "https://github.com/hfm/puppet-serf/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ],
+  "data_provider": null
+}
+
