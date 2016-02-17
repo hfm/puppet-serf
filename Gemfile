@@ -8,4 +8,5 @@ group :test, :development do
   gem 'puppet-lint', '>= 1.0.0'
   gem 'facter', '>= 2.0.1'
   gem 'metadata-json-lint'
+  gem 'librarian-puppet'
 end
